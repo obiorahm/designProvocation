@@ -1,0 +1,50 @@
+body {
+	font-family: 'Nunito', sans-serif !important;
+	text-align: center;
+	padding-top: 5%;
+}
+h2 {
+	padding-top: 5%;
+	font-size: 60px;
+	color: #00b7be;
+	padding-bottom: 2%;
+}
+button {
+	height: 100px;
+	width: 210px;
+	margin: 10px;
+	font-size: 37px;
+	font-family: 'Nunito', sans-serif !important;
+	border-radius: 25px;
+	background-color: #00898e;
+	color: white;
+	border: 3px solid #007277;
+	font-weight: bold;
+}
+
+.box {
+	background-color: #004447;
+	height: 500px;
+	width: 60%;
+	border-radius: 20px;
+	margin: auto;
+	padding-bottom: 50px;
+	border: 10px solid #007277;
+}
+a {
+	text-decoration: none;
+}
+b.you {
+	color: white;
+	font-size: 65px;
+}
+button.tools {
+	padding-bottom: 30px;
+}
+
+i {
+	float: left;
+	color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+}
