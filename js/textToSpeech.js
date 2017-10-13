@@ -1,4 +1,10 @@
-        function welcomeAddress(whattoSay) {
+/*        function welcomeAddress(whattoSay) {
            responsiveVoice.speak(whattoSay);
         }
-        window.onload = welcomeAddress;
+        window.onload = welcomeAddress;*/
+
+        function welcomeAddress(whattoSay, callback){
+        	responsiveVoice.speak(whattoSay);
+        	callback;
+        }
+

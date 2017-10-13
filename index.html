@@ -5,10 +5,7 @@
    <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
-  <script type="text/javascript" src="js/textToSpeech.js"></script>
-  <script type="text/javascript">
-        window.onload = welcomeAddress("Welcome to this Makerspace. Tap on your screen to begin making");
-        </script>
+
 </head>
 
 <body>
@@ -17,5 +14,14 @@
 		<!-- <p>Click below to start your making experience.</p> -->
 		<a href="secondPage.html"><button>Begin Making</button></a>
 	</div>
+
+    <div>
+        <p class="hints"></p>
+        <p class="output"><em>...diagnostic messages</em></p>
+    </div>
+  <script type="text/javascript" src="js/speechRecognition.js"></script>   
 </body>
+  <script type="text/javascript">
+      window.onload = welcomeAddress("Welcome to this Makerspace. Tap on your screen to begin making");
+</script> 
 </html>

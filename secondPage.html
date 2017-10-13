@@ -6,10 +6,8 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
-   <script type="text/javascript" src="js/textToSpeech.js"></script>
-     <script type="text/javascript">
-        window.onload = welcomeAddress("What do you need help with today?");
-        </script>
+
+
 </head>
 
 <body>
@@ -18,7 +16,19 @@
 		<h2>What do <b class="you">you</b> need </br>help with today?</h2>
 		<a class = "navigation" href="thirdPage.html"><button>Navigation</button></a>
 		<a class="tools" href="thirdPage.html"><button>Tools</button></a>
-		<a class="other" href="thirdPage.html"><button>Other</button></a>
+		<a class="other" href="thirdPage.html" onclick=""><button>Other</button></a>
 	</div>
+  <div>
+      <p class="hints"></p>
+      <p class="output"><em>...diagnostic messages</em></p>
+  </div>
+
+<script type="text/javascript" src="js/speechRecognition.js"></script>
 </body>
+
+
+<script type="text/javascript">
+  window.onload = welcomeAddress("What do you need help with today? Navigation, Tools, or Others");
+  </script>
+
 </html>

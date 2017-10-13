@@ -38,3 +38,6 @@ p {
 	color: #00b7be;
 	font-size: 25px;
 }
+.hints{
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
